@@ -8,10 +8,22 @@
 .transactionHistory td {
   padding: 10px;
   border: 1px solid #ddd;
-  text-align: left;
+  text-align: center;
+  width: 150px; /* Встановлення ширини стовпців */
 }
 
 .transactionHistory th {
-  background-color: #f4f4f4;
+  background-color: black;
   font-weight: bold;
+  color: white;
+}
+
+.transactionHistory tr:nth-child(even) {
+  background-color: lightgrey; /* Колір парних рядків */
+  color: black;
+}
+
+.transactionHistory tr:nth-child(odd) {
+  background-color: #ffffff; /* Колір непарних рядків */
+  color: black;
 }

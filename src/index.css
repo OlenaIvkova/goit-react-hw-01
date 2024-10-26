@@ -45,7 +45,7 @@ p {
 
 ul,
 ol {
-  margin: 0;
+  margin: 20px;
   padding: 0;
 }
 
@@ -83,12 +83,12 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     color: #747bff;
-  }
-  button {
+  } */
+  /* button {
     background-color: #f9f9f9;
-  }
+  } */
 }
 
 
