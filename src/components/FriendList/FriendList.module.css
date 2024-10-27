@@ -1,7 +1,7 @@
 .friendList {
   display: flex;
-  flex-wrap: wrap; /* Дозволяє елементам переходити на новий рядок при недостатньому місці */
-  gap: 15px; /* Відстань між квадратиками */
-  justify-content: center; /* Вирівнює елементи по центру */
+  flex-wrap: wrap; 
+  gap: 15px; 
+  justify-content: center; 
 }
 

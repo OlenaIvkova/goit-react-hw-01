@@ -9,8 +9,7 @@
   padding: 10px;
   border: 1px solid #ddd;
   text-align: center;
-  width: 150px; /* Встановлення ширини стовпців */
-}
+  width: 150px; 
 
 .transactionHistory th {
   background-color: black;
@@ -19,11 +18,11 @@
 }
 
 .transactionHistory tr:nth-child(even) {
-  background-color: lightgrey; /* Колір парних рядків */
+  background-color: lightgrey; 
   color: black;
 }
 
 .transactionHistory tr:nth-child(odd) {
-  background-color: #ffffff; /* Колір непарних рядків */
+  background-color: #ffffff; 
   color: black;
 }
